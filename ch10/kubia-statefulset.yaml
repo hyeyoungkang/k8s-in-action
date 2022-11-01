@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: kubia
-        image: luksa/kubia-pet
+        image: idock.daumkakao.io/juliet.v2/kubia-pet
         ports:
         - name: http
           containerPort: 8080
